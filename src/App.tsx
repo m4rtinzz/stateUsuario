@@ -50,6 +50,13 @@ function alterarCPF() {
       <div>
       <h2>Dados do Usuário:</h2>
       <p>Nome: {user.nome}</p>
+      <p>Idade: {user.idade}</p>
+      <p>CPF: {user.CPF}</p>
+      </div>
+
+      <div>
+      <h2>Alterar dados:</h2>
+      <p>Nome: {user.nome}</p>
         <div>
         <button onClick={alterarNome}>Alterar Nome</button>
         <input value={novoNome}
